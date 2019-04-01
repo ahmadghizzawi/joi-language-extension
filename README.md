@@ -16,7 +16,7 @@ const JoiLanguageExtension = require('joi-language-extension')
 const Joi = BaseJoi.extend(JoiLanguageExtension)
 
 const schema = Joi.string().language()
-const result = await schema.validate('AR')
+const result = await schema.validate('ar')
 
 console.log(result) // ar
 ```
